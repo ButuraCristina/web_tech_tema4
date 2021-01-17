@@ -5,7 +5,7 @@ class Robot extends Component {
   	let {item} = this.props
     return (
       <div>
-  		Hello, my name is {item.name}. I am a {item.type} and weigh {item.mass}
+  		Hello, my name is {item.name}. I am a {item.type} and weight {item.mass}
       </div>
     )
   }
